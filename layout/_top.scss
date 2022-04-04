@@ -1,0 +1,43 @@
+.top-section {
+  background-color: #243559;
+  padding: 15px 0px;
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+    .top-content {
+      display: flex;
+      .top-left-side {
+        width: 80%;
+        margin-top: 5px;
+        a {
+          text-decoration: none;
+          margin-right: 10px;
+          font-size: 16px;
+          color: #cccccc;
+          i {
+            font-size: 16px;
+            margin-right: 10px;
+          }
+        }
+      }
+      .top-right-side {
+        width: 20%;
+        .top-social-icon {
+          display: flex;
+          justify-content: end;
+          a {
+            text-decoration: none;
+            i {
+              font-size: 12px;
+              margin: 0px 5px;
+              padding: 6px;
+              background: #3078fb;
+              border-radius: 5px;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}

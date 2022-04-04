@@ -1,0 +1,23 @@
+/* Common Code */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "tahoma";
+  src: url("font/tahoma-regular-font.ttf");
+}
+img {
+  width: 100%;
+}
+body {
+  font-family: "tahoma";
+}
+/* Partial Scss */
+@import "layout/top";
+@import "layout/menupart";
+@import "layout/heropart";
+@import "layout/creative";
+@import "layout/tech";
+@import "layout/services";
